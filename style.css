@@ -1,6 +1,9 @@
 #logo {
     width: 10rem;
 }
+.navbar-brand {
+  color: #154854;
+}
 
 @media (min-width: 700px) {
     body {
@@ -28,9 +31,6 @@
 @media (max-width: 700px) {
     h1 {
         font-size: 6vw;
-    }
-    .navbar-brand {
-        margin-left: 30%;
     }
     iframe {
         width: auto;
