@@ -9,22 +9,24 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/421ae7deeb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Origami Learning</title>
+    <script src="https://kit.fontawesome.com/421ae7deeb.js" crossorigin="anonymous"></script>
+    <title>Contact Us</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md bg-light navbar-light">
-        <a class="navbar-brand" id="index_brand" href="index.html"></a>
+        <a class="navbar-brand" id="contact_brand" href="contact.html"></a>
+
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <!-- Navbar links -->
         <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
             <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
@@ -33,7 +35,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="videos.html">Tutorials</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
             </ul>
@@ -41,13 +43,50 @@
     </nav>
     <div style="text-align: center;">
         <a href="index.html"><img id="logo" src="favicon.png" alt="DesignNet_logo"></a>
-        <h1 id="home" style="display: inline;">Origami Learning</h1>
+        <h1 id="contact" style="display: inline;">Contact Us</h1>
     </div>
-    <div class="vid"><iframe width="560" height="315" src="https://www.youtube.com/embed/dgKSqz3it50" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="form-container">
+        <form action="https://formspree.io/mpzyadwl" method="POST">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="John">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Doe">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="comment">Comment</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="comment" name="comment" placeholder="Write something.."
+                        style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
     </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
-    <footer id="footer" class="page-footer light">
+    <footer id="footer_contact" class="page-footer light">
         <div class="footer-copyright light">
             <div id="google_translate_element"></div>
             Background icons made by <a href="https://www.flaticon.com/authors/smashicons"
@@ -57,6 +96,8 @@
         </div>
     </footer>
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -74,7 +115,6 @@
     </script>
     <script type="text/javascript"
         src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
 </body>
 
 </html>
