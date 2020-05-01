@@ -1,6 +1,9 @@
 #logo {
   width: 10rem;
 }
+.navbar-brand {
+  color: #154854;
+}
 
 @media (min-width: 700px) {
   body {
