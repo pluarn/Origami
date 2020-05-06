@@ -5,97 +5,137 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="DesignNet Inc., Bootstrap contributors">
 
-    <!-- Bootstrap CSS -->
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#154854">
+    <meta name="msapplication-TileColor" content="#154854">
+    <meta name="theme-color" content="#154854">
+
+    <!--Navigation Bar CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/421ae7deeb.js" crossorigin="anonymous"></script>
-    <title>Contact Us</title>
-</head>
-
-<body>
-    <div id="cssmenu">
-        <ul>
-            <li><a href='index.html'>Home</a></li>
-            <li><a href='videos.html'>Tutorials</a></li>
-            <li class="active"><a href='contact.html'>Contact</a></li>
-        </ul>
-    </div>
-    <div style="text-align: center;">
-        <a href="index.html"><img id="logo" src="favicon.png" alt="DesignNet_logo"></a>
-        <h1 id="contact" style="display: inline;">Contact Us</h1>
-    </div>
-    <div class="form-container">
-        <form action="https://formspree.io/mpzyadwl" method="POST">
-            <div class="row">
-                <div class="col-25">
-                    <label for="fname">First Name</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="fname" name="firstname" placeholder="John">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="lname">Last Name</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="lname" name="lastname" placeholder="Doe">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="email">Email</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="email" name="email" placeholder="example@gmail.com">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="comment">Comment</label>
-                </div>
-                <div class="col-75">
-                    <textarea id="comment" name="comment" placeholder="Write something.."
-                        style="height:200px"></textarea>
-                </div>
-            </div>
-            <div class="row">
-                <input type="submit" value="Submit">
-            </div>
-        </form>
-    </div>
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
-    <footer id="footer_contact" class="page-footer light">
-        <div class="footer-copyright light">
-            <div id="google_translate_element"></div>
-            Background icons made by <a href="https://www.flaticon.com/authors/smashicons"
-                title="Smashicons">Smashicons</a> from
-            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><br>
-            Copyright &copy; 2020 DesignNet Inc. All Rights Reserved
-        </div>
-    </footer>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap Body CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <script src="origamiJS.js"></script>
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
-        }
-    </script>
-    <script type="text/javascript"
-        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/421ae7deeb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <!--Scroll to top-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+    <script src="script.js"></script>
+
+    <!-- Navbar-->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+            <div class="container">
+                <img id="logo" src="images/favicon.png" alt="DesignNet_logo">
+                <a href="#" class="navbar-brand text-uppercase font-weight-bold">Origami Learning</a>
+                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold">Home
+                                <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a href="tutorials.html"
+                                class="nav-link text-uppercase font-weight-bold">Tutorials</a>
+                        </li>
+                        <li class="nav-item"><a href="contact.html"
+                                class="nav-link text-uppercase font-weight-bold">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+        
+        <div class="container marketing">
+            <div style="text-align: center;">
+                <br><br>
+                <h1 id="contact" style="display: inline;">Contact Us</h1>
+            </div>
+            <div class="form-container">
+                <form action="https://formspree.io/mpzyadwl" method="POST">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname">First Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="John">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="lname">Last Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Doe">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="comment">Comment</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="comment" name="comment" placeholder="Write something.."
+                                style="height:200px"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+        </div><!-- /.container -->
+
+        <!-- FOOTER -->
+        <footer class="container">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>Copyright &copy;
+                <script>document.write(new Date().getFullYear())</script> DesignNet Inc. All Rights Reserved</p>
+        </footer>
+    </main>
 </body>
 
 </html>
