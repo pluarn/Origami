@@ -1,3 +1,119 @@
+/*Social Media Icons*/
+p.social-media {
+	text-align: left;
+}
+
+.fa {
+	padding: 10px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}
+
+.fa:hover {
+	opacity: 0.7;
+	color: white;
+}
+
+.fa-facebook {
+	background: #3b5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55acee;
+	color: white;
+}
+
+.fa-instagram {
+	color: white;
+	background:
+	/*
+	Use radial gradients to get the rounded
+	gradient effect in each corner
+	  
+	left bottom */
+	radial-gradient(
+		circle farthest-corner at 35% 90%,
+		#fec564,
+		transparent 50%
+	),
+	radial-gradient(
+		circle farthest-corner at 0 140%,
+		#fec564,
+		transparent 50%
+	),
+	/*left top*/
+	radial-gradient(
+		ellipse farthest-corner at 0 -25%,
+		#5258cf,
+		transparent 50%
+	),
+	radial-gradient(
+		ellipse farthest-corner at 20% -50%,
+		#5258cf,
+		transparent 50%
+	),
+	/* right top */
+	radial-gradient(
+		ellipse farthest-corner at 100% 0,
+		#893dc2,
+		transparent 50%
+	),
+	radial-gradient(
+		ellipse farthest-corner at 60% -20%,
+		#893dc2,
+		transparent 50%
+	),
+	/* right bottom */
+	radial-gradient(
+		ellipse farthest-corner at 100% 100%,
+		#d9317a,
+		transparent
+	),
+	/* 
+	create a base coat to smooth
+	corner gradients */
+	linear-gradient(
+		#6559ca,
+		#bc318f 30%,
+		#e33f5f 50%,
+		#f77638 70%,
+		#fec66d 100%
+	);
+	position: relative;
+	/*
+	border-radius: 0.2em;
+	font-size: $size;
+
+	&:before,
+	&:after {
+		color: #fff;
+		content: "";
+		display: block;
+		position: absolute;
+		border: 0.075em solid;
+	}
+
+	&:before {
+		border-radius: inherit;
+		height: 0.75em;
+		transform: translate(0.125em, 0.125em);
+		width: 0.75em;
+	}
+
+	&:after {
+		border-radius: 1em;
+		box-shadow: 0.2em -0.2em 0 -0.16em;
+		height: 0.4em;
+		transform: translate(0.3em, 0.3em);
+		width: 0.4em;
+	}*/
+}
+
 /*Images*/
 .bd-placeholder-img {
 	font-size: 1.125rem;
@@ -68,7 +184,6 @@
 /* Change navbar styling on scroll */
 .navbar.active {
 	background: #154854;
-	;
 	box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
