@@ -153,12 +153,16 @@ a {
 
 #difficulty {
   background-color: #154854;
-  color: white;
-  width: 200px;
+  width: 180px;
+  height: 50px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
   padding: 5px;
+}
+
+#difficulty a{
+  color: white;
 }
 
 footer {
