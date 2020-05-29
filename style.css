@@ -182,3 +182,11 @@ footer {
   width:100%;
   position:absolute;
 }
+
+#google_translate_element {
+  width: 150px;
+}
+
+h1 {
+  color: #154854;
+}
