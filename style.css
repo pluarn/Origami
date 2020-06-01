@@ -190,3 +190,12 @@ footer {
 h1 {
   color: #154854;
 }
+
+h3 {
+  color: #154854;
+}
+.card {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
