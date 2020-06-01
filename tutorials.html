@@ -49,8 +49,9 @@
 </head>
 
 <body>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <style>
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!--<style>
         body {
             background-image: url(images/bg.png);
             background-repeat: no-repeat;
@@ -58,7 +59,7 @@
             background-attachment: fixed;
             background-size: cover;
         }
-    </style>
+    </style>-->
     <!--Scroll to top-->
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
     <script src="script.js"></script>
@@ -95,156 +96,174 @@
             <div style="text-align: center;">
                 <br><br><br><br>
                 <h1 id="tutorials" style="display: inline;">Origami Tutorials</h1>
-                <br><br><br>
+                <br><br>
 
             </div>
 
-            <div class="text-center panel-group" id="accordion">
-                <div class="panel panel-default">
-                    <div class="panel-heading" >
-                        <h3 id="difficulty" class="panel-title" >
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" >
-                                Easy <i class="fas fa-angle-down"></i></a>
-                        </h3>
-                    </div>
-                    <div id="collapse1" class="panel-collapse collapse in" >
-                        <div class="panel-body">
-                            <h4><a href="fortune_teller.html">Fortune Teller</a></h4>
-                            <h4><a href="dog.html">Dog</a></h4>
-                            <h4><a href="kappa.html">Kappa Face</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 id="difficulty" class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                                Medium <i class="fas fa-angle-down"></i></a>
-                        </h3>
-                    </div>
-                    <div id="collapse2" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <h4><a href="balloon.html">Balloon</a></h4>
-                            <h4><a href="frog.html">Frog</a></h4>
-                            <h4><a href="turtle.html">Turtle</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 id="difficulty" class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                                Hard <i class="fas fa-angle-down"></i></a>
-                        </h3>
-                    </div>
-                    <div id="collapse3" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <h4><a href="tulip.html">Tulip</a></h4>
-                            <h4><a href="crane.html">Crane</a></h4>
-                            <h4><a href="cat.html">Cat</a></h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- Three columns of text below the carousel -->
+            <hr class="featurette-divider" style="margin: 1rem 1rem;">
+            <h1 class="text-center">Easy</h1>
+            <hr class="featurette-divider" style="margin: 1rem 1rem;">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="images/Fortune_Teller/23.jpg" class="icon" style="width:140px">
+                    <h2>Fortune Teller</h2>
+                    <p></p>
+                    <p><a class="btn btn-secondary" href="fortune_teller.html" role="button">Let's Go 
+                            &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="images/Dog/7.jpg" class="icon" style="width:140px">
+                    <h2>Dog Face</h2>
+                    <p></p>
+                    <p><a class="btn btn-secondary" href="dog.html" role="button">Let's Go 
+                            &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="images/Kappa/20.JPG" class="icon" style="width:140px">
+                    <h2>Kappa Face</h2>
+                    <p><a class="btn btn-secondary" href="kappa.html" role="button">Let's Go 
+                            &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+            <hr class="featurette-divider" style="margin: 1rem 1rem;">
+
+            <!-- Three columns of text below the carousel -->
+            <h1 class="text-center">Medium</h1>
+            <hr class="featurette-divider" style="margin: 1rem 1rem;">
+      <div class="row">
+                <div class="col-lg-4">
+                    <img src="images/Balloon/35.jpg" class="icon" style="width:140px">
+                    <h2>Balloon</h2>
+                    <p></p>
+                    <p><a class="btn btn-secondary" href="balloon.html" role="button">Let's Go 
+                            &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="images/Frog/finishedFrog.jpg" class="icon" style="width:140px" height="140px">
+                    <h2>Frog</h2>
+                    <p></p>
+                    <p><a class="btn btn-secondary" href="frog.html" role="button">Let's Go 
+                            &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="images/Turtle/19.jpg" class="icon" style="width:140px" height="140px">
+                    <h2>Turtle</h2>
+                    <p><a class="btn btn-secondary" href="turtle.html" role="button">Let's Go 
+                            &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+            <hr class="featurette-divider" style="margin: 1rem 1rem;">
+
+            <!-- Three columns of text below the carousel -->
+            <h1 class="text-center">Hard</h1>
+            <hr class="featurette-divider" style="margin: 1rem 1rem;">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="images/Tulip/19.jpg" class="icon" style="width:140px" height="140px">
+                    <h2>Tulip</h2>
+                    <p></p>
+                    <p><a class="btn btn-secondary" href="tulip.html" role="button">Let's Go 
+                            &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="images/Crane/28.jpg" class="icon" style="width:140px">
+                    <h2>Crane</h2>
+                    <p></p>
+                    <p><a class="btn btn-secondary" href="crane.html" role="button">Let's Go 
+                            &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="images/Cat/19.jpg" class="icon" style="width:140px" height="140px">
+                    <h2>Cat</h2>
+                    <p><a class="btn btn-secondary" href="cat.html" role="button">Let's Go 
+                            &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
 
             <div class="accordion md-accordion text-center" id="accordionEx" role="tablist" aria-multiselectable="true">
 
                 <!-- Accordion card -->
                 <div class="card">
-              
-                  <!-- Card header -->
-                  <div class="card-header" role="tab" id="headingOne1">
-                    <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
-                      aria-controls="collapseOne1">
-                      <h3 class="mb-0">
-                        Easy <i class="fas fa-angle-down rotate-icon"></i>
-                      </h3>
-                    </a>
-                  </div>
-              
-                  <!-- Card body -->
-                  <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
-                    data-parent="#accordionEx">
-                    <div class="card-body">
-                        <h4><a href="fortune_teller.html">Fortune Teller</a></h4>
-                        <h4><a href="dog.html">Dog</a></h4>
-                        <h4><a href="kappa.html">Kappa Face</a></h4>
-                    </div>
-                  </div>
-              
-                </div>
-                <!-- Accordion card -->
-              
-                <!-- Accordion card -->
-                <div class="card">
-              
-                  <!-- Card header -->
-                  <div class="card-header" role="tab" id="headingTwo2">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
-                      aria-expanded="false" aria-controls="collapseTwo2">
-                      <h3 class="mb-0">
-                        Medium <i class="fas fa-angle-down rotate-icon"></i>
-                      </h3>
-                    </a>
-                  </div>
-              
-                  <!-- Card body -->
-                  <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
-                    data-parent="#accordionEx">
-                    <div class="card-body">
-                        <h4><a href="balloon.html">Balloon</a></h4>
-                        <h4><a href="frog.html">Frog</a></h4>
-                        <h4><a href="turtle.html">Turtle</a></h4>
-                    </div>
-                  </div>
-              
-                </div>
-                <!-- Accordion card -->
-              
-                <!-- Accordion card -->
-                <div class="card">
-              
-                  <!-- Card header -->
-                  <div class="card-header" role="tab" id="headingThree3">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
-                      aria-expanded="false" aria-controls="collapseThree3">
-                      <h3 class="mb-0">
-                        Hard <i class="fas fa-angle-down rotate-icon"></i>
-                      </h3>
-                    </a>
-                  </div>
-              
-                  <!-- Card body -->
-                  <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
-                    data-parent="#accordionEx">
-                    <div class="card-body">
-                        <h4><a href="tulip.html">Tulip</a></h4>
-                        <h4><a href="crane.html">Crane</a></h4>
-                        <h4><a href="cat.html">Cat</a></h4>
-                    </div>
-                  </div>
-              
-                </div>
-                <!-- Accordion card -->
-              
-              </div>
-              <!-- Accordion wrapper -->
-              
 
-            <!--<div class="text-center">
-                <h2 id="difficulty"><strong>Easy</strong></h2>
-                <h3><a href="fortune_teller.html">Fortune Teller</a></h3>
-                <h3><a href="dog.html">Dog</a></h3>
-                <h3><a href="kappa.html">Kappa Face</a></h3> <br>
-                <h2 id="difficulty"><strong>Medium</strong></h2>
-                <h3><a href="balloon.html">Balloon</a></h3>
-                <h3><a href="frog.html">Frog</a></h3>
-                <h3><a href="turtle.html">Turtle</a></h3> <br>
-                <h2 id="difficulty"><strong>Hard</strong></h2>
-                <h3><a href="tulip.html">Tulip</a></h3>
-                <h3><a href="crane.html">Crane</a></h3>
-                <h3><a href="cat.html">Cat</a></h3>
-            </div>-->
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingOne1">
+                        <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
+                            aria-controls="collapseOne1">
+                            <h3 class="mb-0">
+                                Easy <i class="fas fa-angle-down rotate-icon"></i>
+                            </h3>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+                        data-parent="#accordionEx">
+                        <div class="card-body">
+                            <h4><a href="fortune_teller.html">Fortune Teller</a></h4>
+                            <h4><a href="dog.html">Dog</a></h4>
+                            <h4><a href="kappa.html">Kappa Face</a></h4>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingTwo2">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
+                            aria-expanded="false" aria-controls="collapseTwo2">
+                            <h3 class="mb-0">
+                                Medium <i class="fas fa-angle-down rotate-icon"></i>
+                            </h3>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
+                        data-parent="#accordionEx">
+                        <div class="card-body">
+                            <h4><a href="balloon.html">Balloon</a></h4>
+                            <h4><a href="frog.html">Frog</a></h4>
+                            <h4><a href="turtle.html">Turtle</a></h4>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingThree3">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
+                            aria-expanded="false" aria-controls="collapseThree3">
+                            <h3 class="mb-0">
+                                Hard <i class="fas fa-angle-down rotate-icon"></i>
+                            </h3>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
+                        data-parent="#accordionEx">
+                        <div class="card-body">
+                            <h4><a href="tulip.html">Tulip</a></h4>
+                            <h4><a href="crane.html">Crane</a></h4>
+                            <h4><a href="cat.html">Cat</a></h4>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Accordion card -->
+
+            </div>
+            <!-- Accordion wrapper -->
+
 
             <hr class="featurette-divider">
 
