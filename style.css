@@ -53,6 +53,7 @@ input[type=text], select, textarea {
   box-sizing: border-box;
   background-color: #fff;
   resize: vertical;
+  font-size: medium;
 }
 
 input[type=submit] {
@@ -67,6 +68,7 @@ input[type=submit] {
   -webkit-appearance: none;
   margin-left: auto;
   margin-right: auto;
+  font-size: medium;
 }
 
 .form-container {
@@ -193,9 +195,20 @@ h1 {
 
 h3 {
   color: #154854;
+  font-weight: 400;
 }
 /*.card {
   width: 500px;
   margin-left: auto;
   margin-right: auto;
 }*/
+
+#easy, #medium, #hard {
+  color: #154854;
+  font-weight: 500;
+  background-color: lightgray;
+  padding: 13px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
