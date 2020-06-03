@@ -1,40 +1,11 @@
 ## Welcome to our OrigamiLearning project!
-![Image](images/index.PNG)
+![Image](images/Carousel/1.png)
 
-## Welcome to GitHub Pages
+### About Us | How it all started...
+Origami Learning was started as a group project to bring younger generations fun origami pieces they could create at school or in their home.
 
-You can use the [editor on GitHub](https://github.com/luarnmmm/Origami/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Our mission at DesignNet Inc. is to utilize technology by providing teachers the tools necessary to continue teaching the youth about origami, from its origins to projects they can do.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/luarnmmm/Origami/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### OrigamiLearning.com
+We provide several origami instructions on our website, categorized in **Easy**, **Medium**, and **Hard**. Some instructions also include tutorial videos.
+If you'd like to provide some feedback, don't hesitate to contact us through the **Contact Us** page!
