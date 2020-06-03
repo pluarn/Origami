@@ -1,3 +1,6 @@
+## Welcome to our OrigamiLearning project!
+![Image](images/index.PNG)
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/luarnmmm/Origami/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
