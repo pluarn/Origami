@@ -10,4 +10,4 @@ We provide several origami instructions on our website, categorized in [easy](ht
 If you'd like to provide some feedback, don't hesitate to contact us through the [Contact Us](https://origamilearning.com/contact.html) page!
 
 ### Website Preview
-![Preview](image/index.PNG)
+![Preview](images/index.PNG)
