@@ -227,6 +227,9 @@ p.social-media {
 	.carousel {
 		margin-top: 102px;
 	}
+	#print {
+		display: none;
+	}
 }
 
 body {
@@ -308,4 +311,14 @@ body {
 	.featurette-heading {
 		margin-top: 7rem;
 	}
+}
+
+#print {
+	float: right;
+	border-color: transparent;
+	background-color: transparent;
+}
+.fa-print {
+	font-size: 20px;
+	float: right;
 }

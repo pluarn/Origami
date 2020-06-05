@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/421ae7deeb.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" media="print" href="print.css">
   <style>
     .featurette-divider {
       margin: 2.5rem 0;
@@ -69,10 +70,13 @@
   <main role="main">
     <div class="container marketing">
       <div style="text-align: center;">
-        <br><br><br><br>
+        <br id="title"><br id="title"><br id="title"><br id="title">
         <h1 id="tutorials" style="display: inline;">Origami Crane</h1>
       </div>
-      <hr class="featurette-divider" style="margin: 2.5rem 0;">
+
+      <button id="print" onclick="window.print(); return false;"><i class="fa fa-print"></i></button>
+
+      <hr class="featurette-divider" id="first" style="margin: 2.5rem 0;">
 
       <div class="vid">
         <h2>How To Make: Crane</h2>
@@ -82,7 +86,7 @@
         </div>
 
       </div>
-      <hr class="featurette-divider" style="margin: 2.5rem 0;">
+      <hr class="featurette-divider vid" style="margin: 2.5rem 0;">
 
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
@@ -104,7 +108,7 @@
         </div>
         <div class="col-md-5 order-md-1">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="images/Crane/2.jpg" alt="step2">
+            height="500" src="images/Crane/2.jpg" alt="step2"> <br><br>
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
             height="500" src="images/Crane/3.jpg" alt="step2">
         </div>
@@ -120,7 +124,7 @@
         </div>
         <div class="col-md-5 order-md-1">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="images/Crane/4.jpg" alt="step3">
+            height="500" src="images/Crane/4.jpg" alt="step3"> <br><br>
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
             height="500" src="images/Crane/5.jpg" alt="step3">
         </div>
@@ -135,7 +139,7 @@
         </div>
         <div class="col-md-5 order-md-1">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="images/Crane/6.jpg" alt="step4">
+            height="500" src="images/Crane/6.jpg" alt="step4"> <br><br>
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
             height="500" src="images/Crane/7.jpg" alt="step4">
         </div>
@@ -150,7 +154,7 @@
         </div>
         <div class="col-md-5 order-md-1">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="images/Crane/8.jpg" alt="step5">
+            height="500" src="images/Crane/8.jpg" alt="step5"> <br><br>
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
             height="500" src="images/Crane/9.jpg" alt="step5">
         </div>
@@ -167,7 +171,7 @@
         </div>
         <div class="col-md-5 order-md-1">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="images/Crane/10.jpg" alt="step6">
+            height="500" src="images/Crane/10.jpg" alt="step6"> <br><br>
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
             height="500" src="images/Crane/11.jpg" alt="step6">
         </div>
@@ -209,7 +213,7 @@
         </div>
         <div class="col-md-5 order-md-1">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="images/Crane/14.jpg" alt="step9">
+            height="500" src="images/Crane/14.jpg" alt="step9"> <br><br>
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
             height="500" src="images/Crane/15.jpg" alt="step9">
         </div>
@@ -225,7 +229,7 @@
         </div>
         <div class="col-md-5 order-md-1">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="images/Crane/16.jpg" alt="step10">
+            height="500" src="images/Crane/16.jpg" alt="step10"> <br><br>
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
             height="500" src="images/Crane/17.jpg" alt="step10">
         </div>
@@ -306,7 +310,7 @@
         </div>
         <div class="col-md-5 order-md-1">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="images/Crane/23.jpg" alt="step16">
+            height="500" src="images/Crane/23.jpg" alt="step16"> <br><br>
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
             height="500" src="images/Crane/24.jpg" alt="step16">
         </div>
@@ -354,15 +358,15 @@
         </div>
       </div>
 
-      <hr class="featurette-divider" style="margin: 5rem 0;">
+      <hr class="featurette-divider" id="title" style="margin: 5rem 0;">
 
     </div><!-- /.container -->
 
     <!-- FOOTER -->
     <footer class="container text-center">
       <p class="social-media">
-        <a href="https://www.facebook.com/UWOrigamiLearning/" class="fa fa-facebook" target="_blank"></a>
-        <a href="https://www.instagram.com/uworigamilearning/" class="fa fa-instagram" target="_blank"></a>
+        <a href="https://www.facebook.com/TheOrigamiLearning/" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://www.instagram.com/theorigamilearning/" class="fa fa-instagram" target="_blank"></a>
         <a href="https://twitter.com/OrigamiLearning" class="fa fa-twitter" target="_blank"></a>
       </p>
       <div id="google_translate_element"></div>

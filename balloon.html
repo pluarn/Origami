@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/421ae7deeb.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" media="print" href="print.css">
   <style>
     .featurette-divider {
       margin: 2.5rem 0;
@@ -69,11 +70,13 @@
   <main role="main">
     <div class="container marketing">
       <div style="text-align: center;">
-        <br><br><br><br>
+        <br id="title"><br id="title"><br id="title"><br id="title">
         <h1 id="tutorials" style="display: inline;">Origami Balloon</h1>
       </div>
+
+      <button id="print" onclick="window.print(); return false;"><i class="fa fa-print"></i></button>
       
-      <hr class="featurette-divider">
+      <hr class="featurette-divider" id="first" style="margin: 2.5rem 0;">
 
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
@@ -433,15 +436,15 @@
         </div>
       </div>
 
-      <hr class="featurette-divider" style="margin: 5rem 0;">
+      <hr class="featurette-divider" id="title" style="margin: 5rem 0;">
 
     </div><!-- /.container -->
 
     <!-- FOOTER -->
     <footer class="container text-center">
       <p class="social-media">
-        <a href="https://www.facebook.com/UWOrigamiLearning/" class="fa fa-facebook" target="_blank"></a>
-        <a href="https://www.instagram.com/uworigamilearning/" class="fa fa-instagram" target="_blank"></a>
+        <a href="https://www.facebook.com/TheOrigamiLearning/" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://www.instagram.com/theorigamilearning/" class="fa fa-instagram" target="_blank"></a>
         <a href="https://twitter.com/OrigamiLearning" class="fa fa-twitter" target="_blank"></a>
       </p>
       <div id="google_translate_element"></div>

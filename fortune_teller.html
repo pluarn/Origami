@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/421ae7deeb.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" media="print" href="print.css">
   <style>
     .featurette-divider {
       margin: 2.5rem 0;
@@ -36,7 +37,8 @@
 </head>
 
 <body>
-  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script type="text/javascript"
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   <!--Scroll to top-->
   <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
   <script src="script.js"></script>
@@ -69,10 +71,15 @@
   <main role="main">
     <div class="container marketing">
       <div style="text-align: center;">
-        <br><br><br><br>
+        <br id="title"><br id="title"><br id="title"><br id="title">
         <h1 id="tutorials" style="display: inline;">Origami Fortune Teller</h1>
       </div>
-      <hr class="featurette-divider" style="margin: 2.5rem 0;">
+
+      <button id="print" onclick="window.print(); return false;"><i class="fa fa-print"></i></button>
+
+      <hr class="featurette-divider" id="first" style="margin: 2.5rem 0;">
+
+
 
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
@@ -122,7 +129,7 @@
         </div>
         <div class="col-md-5 order-md-1">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="images/Fortune_Teller/4.JPG" alt="step4">
+            height="500" src="images/Fortune_Teller/4.JPG" alt="step4"> <br><br>
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
             height="500" src="images/Fortune_Teller/5.jpg" alt="step5">
         </div>
@@ -152,9 +159,9 @@
         </div>
         <div class="col-md-5 order-md-1">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="images/Fortune_Teller/7.JPEG" alt="step7">
+            height="500" src="images/Fortune_Teller/7.JPEG" alt="step7"> <br><br>
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="images/Fortune_Teller/8.JPEG" alt="step8">
+            height="500" src="images/Fortune_Teller/8.JPEG" alt="step8"> <br><br>
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
             height="500" src="images/Fortune_Teller/9.JPEG" alt="step9">
         </div>
@@ -169,7 +176,7 @@
         </div>
         <div class="col-md-5 order-md-1">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="images/Fortune_Teller/10.JPG" alt="step10">
+            height="500" src="images/Fortune_Teller/10.JPG" alt="step10"> <br><br>
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
             height="500" src="images/Fortune_Teller/11.jpg" alt="step11">
         </div>
@@ -199,9 +206,9 @@
         </div>
         <div class="col-md-5 order-md-1">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="images/Fortune_Teller/13.jpg" alt="step13">
+            height="500" src="images/Fortune_Teller/13.jpg" alt="step13"> <br><br>
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="images/Fortune_Teller/14.JPEG" alt="step14">
+            height="500" src="images/Fortune_Teller/14.JPEG" alt="step14"> <br><br>
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
             height="500" src="images/Fortune_Teller/15.jpg" alt="step15">
         </div>
@@ -244,7 +251,7 @@
         </div>
         <div class="col-md-5 order-md-1">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="images/Fortune_Teller/16.JPEG" alt="step16">
+            height="500" src="images/Fortune_Teller/16.JPEG" alt="step16"> <br><br>
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
             height="500" src="images/Fortune_Teller/17.jpg" alt="step17">
         </div>
@@ -304,15 +311,15 @@
         </div>
       </div>
 
-      <hr class="featurette-divider" style="margin: 5rem 0;">
+      <hr class="featurette-divider" id="title" style="margin: 5rem 0;">
 
     </div><!-- /.container -->
 
     <!-- FOOTER -->
     <footer class="container text-center">
       <p class="social-media">
-        <a href="https://www.facebook.com/UWOrigamiLearning/" class="fa fa-facebook" target="_blank"></a>
-        <a href="https://www.instagram.com/uworigamilearning/" class="fa fa-instagram" target="_blank"></a>
+        <a href="https://www.facebook.com/TheOrigamiLearning/" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://www.instagram.com/theorigamilearning/" class="fa fa-instagram" target="_blank"></a>
         <a href="https://twitter.com/OrigamiLearning" class="fa fa-twitter" target="_blank"></a>
       </p>
       <div id="google_translate_element"></div>

@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/421ae7deeb.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" media="print" href="print.css">
   <style>
     .featurette-divider {
       margin: 2.5rem 0;
@@ -36,7 +37,8 @@
 </head>
 
 <body>
-  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script type="text/javascript"
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   <!--Scroll to top-->
   <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
   <script src="script.js"></script>
@@ -69,10 +71,13 @@
   <main role="main">
     <div class="container marketing">
       <div style="text-align: center;">
-        <br><br><br><br>
+        <br id="title"><br id="title"><br id="title"><br id="title">
         <h1 id="tutorials" style="display: inline;">Origami Turtle</h1>
       </div>
-      <hr class="featurette-divider">
+
+      <button id="print" onclick="window.print(); return false;"><i class="fa fa-print"></i></button>
+
+      <hr class="featurette-divider" id="first" style="margin: 2.5rem 0;">
 
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
@@ -81,9 +86,9 @@
         </div>
         <div class="col-md-5 order-md-1">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="images/Turtle/1.jpg" alt="step1">
-            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-              height="500" src="images/Turtle/2.jpg" alt="step1">
+            height="500" src="images/Turtle/1.jpg" alt="step1"> <br><br>
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" src="images/Turtle/2.jpg" alt="step1">
         </div>
       </div>
 
@@ -95,7 +100,7 @@
           <p class="lead">Fold the corners to the center crease.</p>
         </div>
         <div class="col-md-5 order-md-1">
-            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
             height="500" src="images/Turtle/3.jpg" alt="step1">
         </div>
       </div>
@@ -122,8 +127,8 @@
         </div>
         <div class="col-md-5 order-md-1">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="images/Turtle/5.jpg" alt="step4">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" src="images/Turtle/5.jpg" alt="step4"> <br><br>
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
             height="500" src="images/Turtle/6.jpg" alt="step4">
         </div>
       </div>
@@ -172,7 +177,8 @@
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
           <h2 class="featurette-heading">Step 8</h2>
-          <p class="lead">Begin creasing at the left corner tip and slide the crease to the center, then squash parts of the head.</p>
+          <p class="lead">Begin creasing at the left corner tip and slide the crease to the center, then squash parts of
+            the head.</p>
         </div>
         <div class="col-md-5 order-md-1">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
@@ -198,7 +204,8 @@
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
           <h2 class="featurette-heading">Step 10</h2>
-          <p class="lead">Squeeze the sides of the tail together to create a hump on the shell. Make sure peak of the hump does not go past halfway. After squeezing the tail, fold it to the side.</p>
+          <p class="lead">Squeeze the sides of the tail together to create a hump on the shell. Make sure peak of the
+            hump does not go past halfway. After squeezing the tail, fold it to the side.</p>
         </div>
         <div class="col-md-5 order-md-1">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
@@ -227,7 +234,7 @@
           <p class="lead">Fold the corners on both side in to give the shell a rounded appearance.</p>
         </div>
         <div class="col-md-5 order-md-1">
-            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
             height="500" src="images/Turtle/14.jpg" alt="step12">
         </div>
       </div>
@@ -237,7 +244,8 @@
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
           <h2 class="featurette-heading">Step 13</h2>
-          <p class="lead">Fold only parts of the tail back out, allow the base to lock the shape of the shell in place while tips protrudes out.</p>
+          <p class="lead">Fold only parts of the tail back out, allow the base to lock the shape of the shell in place
+            while tips protrudes out.</p>
         </div>
         <div class="col-md-5 order-md-1">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
@@ -297,15 +305,15 @@
         </div>
       </div>
 
-      <hr class="featurette-divider" style="margin: 5rem 0;">
+      <hr class="featurette-divider" id="title" style="margin: 5rem 0;">
 
     </div><!-- /.container -->
 
     <!-- FOOTER -->
     <footer class="container text-center">
       <p class="social-media">
-        <a href="https://www.facebook.com/UWOrigamiLearning/" class="fa fa-facebook" target="_blank"></a>
-        <a href="https://www.instagram.com/uworigamilearning/" class="fa fa-instagram" target="_blank"></a>
+        <a href="https://www.facebook.com/TheOrigamiLearning/" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://www.instagram.com/theorigamilearning/" class="fa fa-instagram" target="_blank"></a>
         <a href="https://twitter.com/OrigamiLearning" class="fa fa-twitter" target="_blank"></a>
       </p>
       <div id="google_translate_element"></div>
